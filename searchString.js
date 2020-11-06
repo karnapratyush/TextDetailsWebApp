@@ -107,7 +107,7 @@ function getDocStats(fileContent)
         let k;
         for (let  key in fre)
         {
-            if ((fre[key]>max) && (!neg[key])  && key.length>5)
+            if ((fre[key]>max) && (!neg[key])  && key.length>4)
             {   
                 max=fre[key];
                 k=key;
